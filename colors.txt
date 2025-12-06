@@ -1,0 +1,11 @@
+Website Colors
+===============
+
+White: #ffffff
+Light Blue: #d1e3f6
+Light Gray: #e7eaec
+Dark Blue: #252641
+Gray: #5B5B5B
+Dark Blue: #2F327D
+Light Gray: #B2B3CF
+Turquoise: #49BBBD
