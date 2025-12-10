@@ -401,7 +401,9 @@ footer .social-links i:hover{
       .hero-section .left-side,.reading-blog,.related-blog .cards{
         align-items: center;
     }
-
+    .reading-blog .card{
+        width: 350px;
+    }
     .marketing .card ,.related-blog .card {
         width: 90%;
     }
@@ -425,7 +427,9 @@ footer .social-links i:hover{
      .reading-blog .container{
         width: 90%;
     }
-
+     .reading-blog .card{
+        width: 300px;
+    }
     .related-blog .cards{
         justify-content: center;
     }
