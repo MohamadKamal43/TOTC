@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TOTC</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <header class="header">
@@ -56,13 +57,28 @@
       </section>
       <section class="reading-blog">
         <h2 class="title">Reading blog list</h2>
-        <div class="images">
-          <img src="images/UXUI.png" alt="ui ux" class="blog-img" />
-          <img src="images/React.png" alt="react" class="blog-img"  />
-          <img src="images/Php.png" alt="php"  class="blog-img" />
-          <img src="images/JS.png" alt="js" class="blog-img"  />
-          
+    <div class="container">
+      <div class="card" id="ui-card" >
+        <div class="langs">
+          <p>UI/Ux</p>
         </div>
+      </div>
+      <div class="card" id="react-card" >
+        <div class="langs">
+          <p>React</p>
+        </div>
+      </div>
+      <div class="card" id="php-card" >
+        <div class="langs">
+          <p>PHP</p>
+        </div>
+      </div>
+      <div class="card" id="js-card" >
+        <div class="langs">
+          <p>JavaScript</p>
+        </div>
+      </div>
+    </div>
       </section>
       <section class="related-blog">
         <div class="header">
@@ -183,17 +199,19 @@
 
         </div>
       </section>
+      <section class="subscribe-form">
+        <h2 class="title">Subscribe to our Newsletter</h2>
+        <p class="sub-title">Stay updated with the latest trends and insights in the tech world. Subscribe to our newsletter and never miss out!</p>
+        <div class="inputs">
+            <input type="email" placeholder="Your Email" id="email">
+            <input type="number" placeholder="Your Phone number" id="phone">
+          </div>
+          <input type="button" value="Subscribe" id="sub-btn">
+      </section>
       <footer>
         <div class="logo">
             <img src="images/footerLogo.png" alt="logo image">
             <h3>Virtual class for Zoom</h3>
-        </div>
-        <div class="form">
-            <h3>Subscribe to get our Newsletter</h3>
-            <div class="inputs">
-                <input type="email" placeholder="Your Email" id="email">
-                <input type="button" value="Subscribe" id="sub-btn">
-            </div>
         </div>
         <div class="links">
             <a href="#">Careers</a>
@@ -201,6 +219,12 @@
             <a href="#">Privacy Policy</a>
             |
             <a href="#">Terms & Conditions</a>
+        </div>
+        <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>  
         </div>
         <p id="copy">&copy; 2021 Class Technologies Inc.</p>
       </footer>
