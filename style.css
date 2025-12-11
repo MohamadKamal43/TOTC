@@ -339,6 +339,7 @@ body{
     border: #B2B3CF solid 1px;
     height: 200px;
     width: 500px;
+    resize: none;
 }
 .subscribe-form #sub-btn{
     padding: 1rem 2.5rem;
