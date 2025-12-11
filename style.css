@@ -110,7 +110,7 @@ body{
 }
  .reading-blog .container{
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -121,11 +121,10 @@ body{
     background-repeat: no-repeat;
     width: 250px;
     height: 200px;
-    transition:0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
     cursor: pointer;
     border-radius: 5px;
-    align-content: end;
-
+    overflow: hidden;
 }
 .reading-blog #ui-card{
     background-image: url("./images/ui-card.jpg");
@@ -142,7 +141,7 @@ body{
 .reading-blog .card:hover{
     opacity: 0.8;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
-    translate: 5px -5px;
+    scale: 1.1;
     .langs{
         opacity: 1;
         scale: 1.05;
@@ -150,9 +149,9 @@ body{
 }
 .reading-blog .langs{
     position: absolute;
-    bottom: 70px;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform:  translate(-50%,-50%);
     width: 60%;
     text-align: center;
     font-weight: 600;
@@ -161,9 +160,8 @@ body{
     padding: 0.5rem 1rem;
     border-radius: 5px;
     opacity: 0.5;
-        cursor: pointer;
-        transition:0.3s all ease-in-out;
-
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
 }
 
 .related-blog{
@@ -416,7 +414,10 @@ footer .social-links i:hover{
     .reading-blog .card{
         width: 350px;
     }
-    .marketing .card ,.related-blog .card,.subscribe-form .inputs , #feedback-area {
+    #feedback-area{
+        width: 380px;
+    }
+    .marketing .card ,.related-blog .card,.subscribe-form .inputs  {
         width: 90%;
     }
      footer .links, .related-blog .cards {
