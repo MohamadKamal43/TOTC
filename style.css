@@ -350,7 +350,7 @@ body{
 }
 .subscribe-form #sub-btn:hover{
     background-color: white;
-    scale: 1.05;
+    scale: 1.1;
     color: #49BBBD;
 }
 
@@ -396,7 +396,8 @@ footer .social-links i{
 }
 footer .social-links i:hover{
     color: white;
-    scale: 1.2;
+    transform: scale(1.2);
+    /* scale: 1.2; */
 }
 /* responsive */
 /* mobile */
@@ -415,7 +416,7 @@ footer .social-links i:hover{
         width: 350px;
     }
     #feedback-area{
-        width: 380px;
+        max-width: 100%;
     }
     .marketing .card ,.related-blog .card,.subscribe-form .inputs  {
         width: 90%;
