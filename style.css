@@ -396,8 +396,7 @@ footer .social-links i{
 }
 footer .social-links i:hover{
     color: white;
-    transform: scale(1.2);
-    /* scale: 1.2; */
+    scale: 1.2;
 }
 /* responsive */
 /* mobile */
@@ -441,16 +440,10 @@ footer .social-links i:hover{
      .reading-blog .container{
         width: 90%;
     }
-     .reading-blog .card{
-        width: 300px;
-    }
     .related-blog .cards{
         justify-content: center;
     }
-    .related-blog .card{
-        width: 350px;
-    }
-    .marketing .card{
+    .marketing .card,.related-blog .card,.reading-blog .card{
         width: 45%;
     }
 }
